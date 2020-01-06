@@ -32,6 +32,8 @@
   get_url:
     url: https://maha1234.s3-us-west-2.amazonaws.com/mahaLogin.war
     dest: /var/lib/tomcat7/webapps/mahaLogin.war
+    username: admin
+    password: password
     force_basic_auth: yes
   notify: restarttomcat
 
