@@ -34,8 +34,7 @@
     dest: /var/lib/tomcat7/webapps/mahaLogin.war
     username: admin
     password: password
-    force_basic_auth: yes
-  notify: restarttomcat
+    force_basic_auth: yes 
 - name: debug
   debug:
     msg: "{{mybuildno}}"
