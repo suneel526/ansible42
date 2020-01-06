@@ -30,7 +30,7 @@
 
 - name: deploy java application
   get_url:
-    url: https://maha1234.s3-us-west-2.amazonaws.com/mahaLogin.war
+    url: http://3.84.241.87:8081/artifactory/mytestrepo/{{$upstreemjobid}}/target/mahaLogin-1.0.war
     dest: /var/lib/tomcat7/webapps/mahaLogin.war
     username: admin
     password: password
@@ -38,6 +38,6 @@
     
 - name: debug
   debug:
-    msg: "{{mybuildno}}"
+    msg: "{{upstreemjobid}}"
 
     
