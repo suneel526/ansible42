@@ -36,5 +36,8 @@
     password: password
     force_basic_auth: yes
   notify: restarttomcat
+- name: debug
+  debug:
+    msg: "{{mybuildno}}"
 
     
