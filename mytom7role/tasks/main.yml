@@ -28,12 +28,12 @@
 
 - name: deploy java application on all nodes 
   get_url:
-    url: http://54.147.195.69:8081/artifactory/test/{{SIT-DEPLOY-NO}}/target/mahaLogin-1.0.war
+    url: http://54.147.195.69:8081/artifactory/test/{{SITDEPLOYNO}}/target/mahaLogin-1.0.war
     dest: /var/lib/tomcat7/webapps/mahaLogin.war
     username: admin
     password: password
     force_basic_auth: yes
 - name: print sit job build-no
   debug: 
-    msg: "{{SIT-DEPLOY-NO}}"
+    msg: "{{SITDEPLOYNO}}"
     
