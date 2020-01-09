@@ -1,22 +1,2 @@
 [webservers]
-172.31.80.91
-
-
-[appservers]
-172.31.29.26  
-172.31.25.137 
-
-[dbservers]
-172.31.22.187
-172.31.26.164
-
-[ubuntu]
-172.31.22.185
-
-[amazon]
-172.31.26.162
-
-
-[webservers:vars]
-mywebonubuntu: apache2
-mywebonamazon: httpd
+172.31.80.180
