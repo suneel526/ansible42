@@ -35,5 +35,5 @@
     force_basic_auth: yes
 - name: print sit job build-no
   debug: 
-    msg: "{{sitbuildnor}}"
+    msg: "{{sitbuildno}}"
     
