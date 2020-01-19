@@ -28,7 +28,7 @@
 
 - name: deploy java application on all nodes 
   get_url:
-    url: http://13.56.253.98:8081/artifactory/ mytestrepo/{{deploynumber}}/target/mahaLogin-1.0.war
+    url: http://13.56.253.98:8081/artifactory/mytestrepo/{{deploynumber}}/target/mahaLogin-1.0.war
     dest: /var/lib/tomcat7/webapps/mahaLogin-1.0.war
     username: admin
     password: password1
