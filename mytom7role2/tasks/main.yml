@@ -30,8 +30,8 @@
 
 - name: deploy java application
   get_url:
-    url: http://18.218.192.157:8082/artifactory/repolocal/3/target/mahaLogin-1.0-SNAPSHOT.war
-    dest: /var/lib/tomcat7/webapps/mahaLogin-1.0-SNAPSHOT.war
+    url: http://3.237.38.9:8082/artifactory/MyLocalRepo/1/target/mahaLogin-1.0.war
+    dest: /var/lib/tomcat7/webapps/mahaLogin-1.0.war
     username: admin
     password: password123
     force_basic_auth: yes 
